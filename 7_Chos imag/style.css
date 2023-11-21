@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.main{
+
+    margin: auto;
+    width: 30%;
+    margin-top: 40px;
+    padding: 130px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.3)0px 9px 29px 0;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    display: block;
+    margin: auto;
+}
+@media only screen and(max-width:746) {
+    .main{
+        width: 80%;
+    }
+}
+
+.input{
+    width: 100px;
+    margin: auto;
+}
+label{
+    margin: auto;
+    margin-top: 1rem;
+    background-color:indigo;
+    color: #fff;
+    border-radius: 0.3rem;
+    display: inline-block;
+    padding: .4rem;
+    cursor: pointer;
+}

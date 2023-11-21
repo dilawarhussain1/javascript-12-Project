@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="slide-show-container">
+
+        <div class="myslider  fade">
+            <div class="numberText">1/3</div>
+            <img src="images/images (2).jpeg" alt="">
+            <div class="text">Wellcome to Sale Bazar</div>
+        </div>
+        <div class="myslider  fade">
+            <div class="numberText">2/3</div>
+            <img src="images/download (1).jpeg" alt="">
+            <div class="text">Sale Bazar 2</div>
+        </div>
+        <div class="myslider  fade">
+            <div class="numberText">3/3</div>
+            <img src="images/download (3).jpeg" alt="">
+            <div class="text">Sale Bazar 3</div>
+        </div>
+
+        <!-- pre and next button -->
+        <a onclick="minusslide(-1);" class="pre">-</a>
+        <a onclick="plusslide(+1);" class="next">+</a>
+
+        <!-- dotes -->
+        <div class="slider-dotes">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

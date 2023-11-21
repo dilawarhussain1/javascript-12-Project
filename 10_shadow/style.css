@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+}
+h1{
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF,
+     0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18,
+      0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+ h1:focus{
+    outline: none;
+ }
+
+
+ /* text ::shadow link */
+ /* https://html-css-js.com/css/generator/text-shadow/ */

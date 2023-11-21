@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+}
+.main{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+  box-shadow:rgb(100, 100, 111,0.2)0px 7px 29px 0px;
+    width: 80%;
+    padding: 40px;
+}
+img{
+    width: 30%;
+    height: 180px;
+    display: inline-block;
+    margin: 2px;
+    border: 2px solid red;
+    margin: auto;
+}
+label{
+    display: inline-block;
+    background:indigo;
+    color: #fff;
+    margin-top: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.preview{
+    width: 100%;
+    margin: auto;
+}
